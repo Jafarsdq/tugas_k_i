@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persiapan Keberangkatan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+  /* Reset dasar */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Elemen untuk background animasi */
+  .animated-background {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Tinggi elemen animasi */
+    background-image: url("logoskinfa.jpg"); /* Ganti dengan gambar Anda */
+    background-size: 50%; /* Ukuran background 50% dari elemen */
+    background-repeat: no-repeat; /* Hilangkan pengulangan background */
+    background-position: center; /* Background tetap di tengah */
+    animation: moveBackground 8s infinite linear; /* Animasi background */
+    overflow: hidden;
+  }
+
+  /* Header di atas animasi */
+  .header {
+    position: relative;
+    z-index: 2; /* Header berada di atas animasi */
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi transparan */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Animasi untuk background */
+  @keyframes moveBackground {
+    100% {
+      background-position: 100% 100%; /* Bergerak ke tengah */
+    }
+  }
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="skinfa1.jpg" alt="Logo 1" class="logo">
+            <img src="chloerine1.jpg" alt="Logo 2" class="logo">
+            <img src="unikom2.jpg" alt="Logo 3" class="logo">
+        </div>
+        <h1>Persiapan Keberangkatan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="chlorine.html">PT Chlorine Digital Media</a></li>
+                <li><a href="unikom.html">UNIKOM</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="animated-background">Persiapan Keberangkatan</h2>
+            <p>Seluruh siswa mempersiapkan keberangkatan dengan antusias.kami berangkat ke sekolah dan sampai disekolah pukul 4:00, sebelum berangkat kami sholat terlebih dahulu dan sebelum masuk ke dalam bus siswa siswa di check tas nya serta absensi</p>
+            <img src="persiapan.jpg" alt="Foto Persiapan" class="main-image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kelas X RPL</p>
+    </footer>
+</body>
+</html>
